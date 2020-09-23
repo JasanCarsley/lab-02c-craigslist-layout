@@ -31,7 +31,7 @@ main {
 .left {
     display: grid;
     background-color: lightgrey;
-    grid-template-rows: 60px 45px 40px 125px;
+    grid-template-rows: 60px 45px 200px 200px;
 }
 
 .middle-top {
@@ -41,7 +41,7 @@ main {
 
 .main-middle {
     display: grid;
-    grid-template-columns: 1fr 1fr .5fr;
+    grid-template-columns: 35% 40% 25%;
     grid-gap: 20px;
     
 }
