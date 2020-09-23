@@ -22,6 +22,10 @@ main {
     grid-gap: 25px;
 }
 
+.mids {
+    padding: 10px;
+}
+
 .right {
     display: grid;
     background-color: lightgray;
@@ -41,9 +45,7 @@ main {
 
 .main-middle {
     display: grid;
-    grid-template-columns: 35% 40% 25%;
-    grid-gap: 20px;
-    
+    grid-template-columns: 35% 40% 25%;    
 }
 
 
