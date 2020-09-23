@@ -1,0 +1,49 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+div {color: blue;
+}
+
+main {
+    height: 100%;
+    width: 870px;
+    display: grid;
+    grid-template-columns: 20% 55% 25%;
+    grid-gap: 25px;
+}
+
+.right {
+    display: grid;
+    background-color: lightgray;
+    grid-template-rows: 50px 25px 25px 25px 25px;
+}
+
+.left {
+    display: grid;
+    background-color: lightgrey;
+    grid-template-rows: 60px 45px 40px 125px;
+}
+
+.middle-top {
+    display: grid;
+    grid-template-rows: 45px 1fr;
+}
+
+.main-middle {
+    display: grid;
+    grid-template-columns: 1fr 1fr .5fr;
+    grid-gap: 20px;
+}
+
+
+
